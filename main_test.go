@@ -15,7 +15,7 @@ func Test(t *testing.T) {
 
 	g.Describe("Sum", func() {
 		g.It("Should return sum of two numbers ", func() {
-			g.Assert(sum(10, 10)).Equal(int64(21))
+			g.Assert(sum(10, 10)).Equal(int64(20))
 		})
 	})
 
